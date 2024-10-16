@@ -181,7 +181,7 @@ const animate = () => {
     if(stat){
     u.writeT("pasti capee yaa abis pkl",0.5*W,0.85*H);
 u.writeT("makanya aku buatin iniii",0.5*W,0.9*H);
-    u.writeT("hehe",0.5*W,0.95*H);}
+    u.writeT("hehe, oiyaa itu love nya bisa dipindah-pindahin sesuka kamu",0.5*W,0.95*H);}
     requestAnimationFrame(animate);
 };
 
@@ -190,7 +190,7 @@ const init = () => {
     W = ctx.canvas.width = innerWidth;
     H = ctx.canvas.height = innerHeight;
     turn=0;
-    stat=(window.confirm("heii ayaaa mau liat sesuatu yang keren gaa?"));
+    stat=(window.confirm("heii ayaaa mau liat sesuatu yang keren gaa?🤫🧏‍♂️"));
     ropes=[];
     ropes.push(new Rope(W*0.5, H*0.25,1,"hotpink",0.2));
     //ropes.push(new Rope(W*0.25, H*0.25,5,"cyan"));
