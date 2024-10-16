@@ -37,7 +37,7 @@ const u = {
 // The size is set with the font
         ctx.font = '25px serif';
 // align position
-        ctx.fillStyle = "yellow";
+        ctx.fillStyle = "white";
         ctx.textAlign = "center"; 
         ctx.textBaseline = "middle"; 
 // draw text
